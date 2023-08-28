@@ -1,5 +1,4 @@
 FROM centos:latest
-RUN yum install httpd -y \
 zip \
 unzip
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page294/troweld.zip /var/www/html/
